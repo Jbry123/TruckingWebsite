@@ -1,0 +1,1666 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "layout": null,
+      "jsonName": "dev-404-page.json",
+      "internalComponentName": "ComponentDev404Page",
+      "path": "/dev-404-page/",
+      "component": "/Users/jonathanbry/LambdaSchool/TruckingWebsite/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin dev-404-page",
+      "pluginCreatorId": "Plugin dev-404-page",
+      "componentPath": "/Users/jonathanbry/LambdaSchool/TruckingWebsite/.cache/dev-404-page.js",
+      "id": "SitePage /dev-404-page/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "aeba7e2ef23f7098c7205ad49b953ae9",
+        "description": "Plugin dev-404-page",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin dev-404-page": {
+      "resolve": "/Users/jonathanbry/LambdaSchool/TruckingWebsite/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "Plugin dev-404-page",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jonathanbry/LambdaSchool/TruckingWebsite/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "865960b21ce354a1747f820ca6e376fe",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin component-page-creator": {
+      "resolve": "/Users/jonathanbry/LambdaSchool/TruckingWebsite/node_modules/gatsby/dist/internal-plugins/component-page-creator",
+      "id": "Plugin component-page-creator",
+      "name": "component-page-creator",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jonathanbry/LambdaSchool/TruckingWebsite/node_modules/gatsby/dist/internal-plugins/component-page-creator",
+      "packageJson": {
+        "name": "component-page-creator",
+        "description": "An internal Gatsby plugin that creates pages from component files in src/pages",
+        "version": "1.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "2bd192acebee64e558cab6ab348ca546",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin component-layout-creator": {
+      "resolve": "/Users/jonathanbry/LambdaSchool/TruckingWebsite/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "id": "Plugin component-layout-creator",
+      "name": "component-layout-creator",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createLayouts"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jonathanbry/LambdaSchool/TruckingWebsite/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "packageJson": {
+        "name": "component-layout-creator",
+        "description": "An internal Gatsby plugin that creates pages from component files in src/layouts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "eebb7dccba91fe46c32561f1b6eea3d4",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin internal-data-bridge": {
+      "resolve": "/Users/jonathanbry/LambdaSchool/TruckingWebsite/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "Plugin internal-data-bridge",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jonathanbry/LambdaSchool/TruckingWebsite/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "8918fd2a10c637732fa8bdb6f8b13d35",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin prod-404": {
+      "resolve": "/Users/jonathanbry/LambdaSchool/TruckingWebsite/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "Plugin prod-404",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jonathanbry/LambdaSchool/TruckingWebsite/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "a0a0204d934b535cad9898dc21557ace",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin query-runner": {
+      "resolve": "/Users/jonathanbry/LambdaSchool/TruckingWebsite/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "Plugin query-runner",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage",
+        "onCreateLayout"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jonathanbry/LambdaSchool/TruckingWebsite/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "89a77876c9d4da574fe1e0f0d3f8e22c",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-react-next": {
+      "resolve": "/Users/jonathanbry/LambdaSchool/TruckingWebsite/node_modules/gatsby-plugin-react-next",
+      "id": "Plugin gatsby-plugin-react-next",
+      "name": "gatsby-plugin-react-next",
+      "version": "1.0.11",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "modifyWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jonathanbry/LambdaSchool/TruckingWebsite/node_modules/gatsby-plugin-react-next",
+      "packageJson": {
+        "name": "gatsby-plugin-react-next",
+        "description": "Use React 16 with your Gatsby v1 site",
+        "version": "1.0.11",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "core-js",
+            "version": "^2.5.1"
+          },
+          {
+            "name": "react",
+            "version": "^16.0.0"
+          },
+          {
+            "name": "react-dom",
+            "version": "^16.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "a97b6afa14d5b9a3e8411ea941090dc1",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-catch-links": {
+      "resolve": "/Users/jonathanbry/LambdaSchool/TruckingWebsite/node_modules/gatsby-plugin-catch-links",
+      "id": "Plugin gatsby-plugin-catch-links",
+      "name": "gatsby-plugin-catch-links",
+      "version": "1.0.24",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [
+        "onClientEntry"
+      ],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jonathanbry/LambdaSchool/TruckingWebsite/node_modules/gatsby-plugin-catch-links",
+      "packageJson": {
+        "name": "gatsby-plugin-catch-links",
+        "description": "Intercepts local links from markdown and other non-react pages and does a client-side pushState to avoid the browser having to refresh the page.",
+        "version": "1.0.24",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "86dd885ec4d284fa720953efd0fe5253",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-source-filesystem": {
+      "resolve": "/Users/jonathanbry/LambdaSchool/TruckingWebsite/node_modules/gatsby-source-filesystem",
+      "id": "Plugin gatsby-source-filesystem",
+      "name": "gatsby-source-filesystem",
+      "version": "1.5.39",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "pages",
+        "path": "/Users/jonathanbry/LambdaSchool/TruckingWebsite/themes/photon/pages"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jonathanbry/LambdaSchool/TruckingWebsite/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "1.5.39",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.1"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^1.3.6"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.9.250"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "61396c6a3e43f1d5b43e4dd71bf039b3",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-sass": {
+      "resolve": "/Users/jonathanbry/LambdaSchool/TruckingWebsite/node_modules/gatsby-plugin-sass",
+      "id": "Plugin gatsby-plugin-sass",
+      "name": "gatsby-plugin-sass",
+      "version": "1.0.26",
+      "pluginOptions": {
+        "plugins": [],
+        "precision": 8
+      },
+      "nodeAPIs": [
+        "modifyWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jonathanbry/LambdaSchool/TruckingWebsite/node_modules/gatsby-plugin-sass",
+      "packageJson": {
+        "name": "gatsby-plugin-sass",
+        "description": "Gatsby plugin to handle scss/sass files",
+        "version": "1.0.26",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "sass",
+          "scss"
+        ],
+        "author": {
+          "name": "Daniel Farrell",
+          "email": "daniel@mobelux.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "gatsby-1-config-css-modules",
+            "version": "^1.0.11"
+          },
+          {
+            "name": "gatsby-1-config-extract-plugin",
+            "version": "^1.0.3"
+          },
+          {
+            "name": "node-sass",
+            "version": "^4.5.2"
+          },
+          {
+            "name": "sass-loader",
+            "version": "^4.1.1"
+          },
+          {
+            "name": "webpack",
+            "version": "^1.13.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "e3d6d756641ae0e7de6126425dfc9d48",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-transformer-remark": {
+      "resolve": "/Users/jonathanbry/LambdaSchool/TruckingWebsite/node_modules/gatsby-transformer-remark",
+      "id": "Plugin gatsby-transformer-remark",
+      "name": "gatsby-transformer-remark",
+      "version": "1.7.44",
+      "pluginOptions": {
+        "plugins": [
+          {
+            "resolve": "/Users/jonathanbry/LambdaSchool/TruckingWebsite/node_modules/gatsby-remark-images",
+            "id": "Plugin gatsby-remark-images",
+            "name": "gatsby-remark-images",
+            "version": "1.5.67",
+            "pluginOptions": {
+              "plugins": [],
+              "linkImagesToOriginal": false,
+              "maxWidth": 650,
+              "wrapperStyle": "",
+              "backgroundColor": "white",
+              "showCaptions": false,
+              "pathPrefix": ""
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/Users/jonathanbry/LambdaSchool/TruckingWebsite/node_modules/gatsby-remark-images"
+          }
+        ]
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jonathanbry/LambdaSchool/TruckingWebsite/node_modules/gatsby-transformer-remark",
+      "packageJson": {
+        "name": "gatsby-transformer-remark",
+        "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
+        "version": "1.7.44",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "markdown",
+          "remark"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "graphql-type-json",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "gray-matter",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "hast-util-raw",
+            "version": "^2.0.2"
+          },
+          {
+            "name": "hast-util-to-html",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "mdast-util-to-hast",
+            "version": "^2.4.0"
+          },
+          {
+            "name": "mdast-util-toc",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "remark",
+            "version": "^7.0.1"
+          },
+          {
+            "name": "remark-parse",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "remark-retext",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "remark-stringify",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "retext-english",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "sanitize-html",
+            "version": "^1.14.1"
+          },
+          {
+            "name": "underscore.string",
+            "version": "^3.3.4"
+          },
+          {
+            "name": "unified",
+            "version": "^6.1.5"
+          },
+          {
+            "name": "unist-util-remove-position",
+            "version": "^1.1.1"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.1.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-plugin-transform-object-rest-spread",
+            "version": "^6.20.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "bc38159365af2edca70ff7a0174b7691",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-remark-images": {
+      "resolve": "/Users/jonathanbry/LambdaSchool/TruckingWebsite/node_modules/gatsby-remark-images",
+      "id": "Plugin gatsby-remark-images",
+      "name": "gatsby-remark-images",
+      "version": "1.5.67",
+      "pluginOptions": {
+        "plugins": [],
+        "linkImagesToOriginal": false,
+        "maxWidth": 650,
+        "wrapperStyle": "",
+        "backgroundColor": "white",
+        "showCaptions": false,
+        "pathPrefix": ""
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jonathanbry/LambdaSchool/TruckingWebsite/node_modules/gatsby-remark-images",
+      "packageJson": {
+        "name": "gatsby-remark-images",
+        "description": "Processes images in markdown so they can be used in the production build.",
+        "version": "1.5.67",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "markdown",
+          "remark",
+          "responsive images"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^1.6.48"
+          },
+          {
+            "name": "is-relative-url",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "5c08c0e080284edf89fe1438ce882a5f",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-react-helmet": {
+      "resolve": "/Users/jonathanbry/LambdaSchool/TruckingWebsite/node_modules/gatsby-plugin-react-helmet",
+      "id": "Plugin gatsby-plugin-react-helmet",
+      "name": "gatsby-plugin-react-helmet",
+      "version": "2.0.10",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/jonathanbry/LambdaSchool/TruckingWebsite/node_modules/gatsby-plugin-react-helmet",
+      "packageJson": {
+        "name": "gatsby-plugin-react-helmet",
+        "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
+        "version": "2.0.10",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "react-helmet",
+          "seo",
+          "document",
+          "head",
+          "title",
+          "meta",
+          "link",
+          "script",
+          "base",
+          "noscript",
+          "style"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "matthews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "react-helmet",
+            "version": ">=5.1.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "420264c2d1d7fcc380099bc913741164",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-transformer-sharp": {
+      "resolve": "/Users/jonathanbry/LambdaSchool/TruckingWebsite/node_modules/gatsby-transformer-sharp",
+      "id": "Plugin gatsby-transformer-sharp",
+      "name": "gatsby-transformer-sharp",
+      "version": "1.6.27",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType",
+        "onPreExtractQueries"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jonathanbry/LambdaSchool/TruckingWebsite/node_modules/gatsby-transformer-sharp",
+      "packageJson": {
+        "name": "gatsby-transformer-sharp",
+        "description": "Gatsby transformer plugin for images using Sharp",
+        "version": "1.6.27",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "feee0dee59b4388ba25f934a28ed4539",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-sharp": {
+      "resolve": "/Users/jonathanbry/LambdaSchool/TruckingWebsite/node_modules/gatsby-plugin-sharp",
+      "id": "Plugin gatsby-plugin-sharp",
+      "name": "gatsby-plugin-sharp",
+      "version": "1.6.48",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jonathanbry/LambdaSchool/TruckingWebsite/node_modules/gatsby-plugin-sharp",
+      "packageJson": {
+        "name": "gatsby-plugin-sharp",
+        "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
+        "version": "1.6.48",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "async",
+            "version": "^2.1.2"
+          },
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "imagemin",
+            "version": "^5.2.2"
+          },
+          {
+            "name": "imagemin-pngquant",
+            "version": "5.0.1"
+          },
+          {
+            "name": "imagemin-webp",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "mini-svg-data-uri",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.20.0"
+          },
+          {
+            "name": "svgo",
+            "version": "^0.7.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "8101259310eb1b493aabe85d07e0962b",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin default-site-plugin": {
+      "resolve": "/Users/jonathanbry/LambdaSchool/TruckingWebsite",
+      "id": "Plugin default-site-plugin",
+      "name": "default-site-plugin",
+      "version": "5c0769626b53742236e9ff35eba9b087",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPages"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jonathanbry/LambdaSchool/TruckingWebsite",
+      "packageJson": {
+        "name": "gatsby",
+        "description": "fa",
+        "version": "1.0.0",
+        "keywords": [
+          "gatsby"
+        ],
+        "author": "Jonathan Bry",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "axios",
+            "version": "^0.18.0"
+          },
+          {
+            "name": "classnames",
+            "version": "^2.2.5"
+          },
+          {
+            "name": "gatsby",
+            "version": "^1.9.247"
+          },
+          {
+            "name": "gatsby-link",
+            "version": "^1.6.40"
+          },
+          {
+            "name": "gatsby-plugin-catch-links",
+            "version": "^1.0.22"
+          },
+          {
+            "name": "gatsby-plugin-react-helmet",
+            "version": "^2.0.10"
+          },
+          {
+            "name": "gatsby-plugin-react-next",
+            "version": "^1.0.11"
+          },
+          {
+            "name": "gatsby-plugin-sass",
+            "version": "^1.0.26"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^1.6.46"
+          },
+          {
+            "name": "gatsby-remark-images",
+            "version": "^1.5.65"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "^1.5.38"
+          },
+          {
+            "name": "gatsby-transformer-remark",
+            "version": "^1.7.41"
+          },
+          {
+            "name": "gatsby-transformer-sharp",
+            "version": "^1.6.26"
+          },
+          {
+            "name": "json-server",
+            "version": "^0.14.0"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.2.0"
+          },
+          {
+            "name": "react-mailchimp-form",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "react-mailchimp-subscribe",
+            "version": "^2.0.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "prettier",
+            "version": "^1.12.0"
+          },
+          {
+            "name": "jest",
+            "version": "^23.1.0"
+          },
+          {
+            "name": "babel-preset-react",
+            "version": "^6.24.1"
+          },
+          {
+            "name": "babel-preset-es2015",
+            "version": "^6.24.1"
+          },
+          {
+            "name": "babel-polyfill",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-jest",
+            "version": "^23.0.1"
+          },
+          {
+            "name": "enzyme",
+            "version": "^3.3.0"
+          },
+          {
+            "name": "enzyme-adapter-react-16",
+            "version": "^1.1.1"
+          },
+          {
+            "name": "enzyme-to-json",
+            "version": "^3.3.4"
+          },
+          {
+            "name": "identity-obj-proxy",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "react",
+            "version": "^16.4.0"
+          },
+          {
+            "name": "react-dom",
+            "version": "^16.4.0"
+          },
+          {
+            "name": "react-router-dom",
+            "version": "^4.2.2"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "3267bbc3e5fff23720633386f380177f",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {
+        "author": "Jonathan Bry",
+        "title": "Marriage USA"
+      },
+      "port": "8000",
+      "host": "localhost",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2018-07-04T22:11:45.387Z",
+      "id": "Site",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "1424f71ebcafd03ef6937c23fc6da040",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "/Users/jonathanbry/LambdaSchool/TruckingWebsite/themes/photon/content absPath of file": {
+      "id": "/Users/jonathanbry/LambdaSchool/TruckingWebsite/themes/photon/content absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "a53d4bee7305ed16e6d443937e443205",
+        "type": "Directory",
+        "description": "Directory \"themes/photon/content\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/jonathanbry/LambdaSchool/TruckingWebsite/themes/photon/content",
+      "relativePath": "",
+      "extension": "",
+      "size": 102,
+      "prettySize": "102 B",
+      "modifiedTime": "2018-06-29T03:47:48.000Z",
+      "accessTime": "2018-07-04T22:12:29.000Z",
+      "changeTime": "2018-06-29T03:47:48.000Z",
+      "birthTime": "2018-06-29T03:47:48.000Z",
+      "root": "/",
+      "dir": "/Users/jonathanbry/LambdaSchool/TruckingWebsite/themes/photon",
+      "base": "content",
+      "ext": "",
+      "name": "content",
+      "relativeDirectory": "..",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 16921027,
+      "blocks": 0,
+      "atimeMs": 1530742349000,
+      "mtimeMs": 1530244068000,
+      "ctimeMs": 1530244068000,
+      "birthtimeMs": 1530244068000,
+      "atime": "2018-07-04T22:12:29.000Z",
+      "mtime": "2018-06-29T03:47:48.000Z",
+      "ctime": "2018-06-29T03:47:48.000Z",
+      "birthtime": "2018-06-29T03:47:48.000Z"
+    },
+    "/Users/jonathanbry/LambdaSchool/TruckingWebsite/themes/photon/content/01_first absPath of file": {
+      "id": "/Users/jonathanbry/LambdaSchool/TruckingWebsite/themes/photon/content/01_first absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "8daf16492c61d054cc9dd2b84894b496",
+        "type": "Directory",
+        "description": "Directory \"themes/photon/content/01_first\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/jonathanbry/LambdaSchool/TruckingWebsite/themes/photon/content/01_first",
+      "relativePath": "01_first",
+      "extension": "",
+      "size": 170,
+      "prettySize": "170 B",
+      "modifiedTime": "2018-06-29T03:47:48.000Z",
+      "accessTime": "2018-07-04T22:12:29.000Z",
+      "changeTime": "2018-06-29T03:47:48.000Z",
+      "birthTime": "2018-06-29T03:47:48.000Z",
+      "root": "/",
+      "dir": "/Users/jonathanbry/LambdaSchool/TruckingWebsite/themes/photon/content",
+      "base": "01_first",
+      "ext": "",
+      "name": "01_first",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 5,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 16921028,
+      "blocks": 0,
+      "atimeMs": 1530742349000,
+      "mtimeMs": 1530244068000,
+      "ctimeMs": 1530244068000,
+      "birthtimeMs": 1530244068000,
+      "atime": "2018-07-04T22:12:29.000Z",
+      "mtime": "2018-06-29T03:47:48.000Z",
+      "ctime": "2018-06-29T03:47:48.000Z",
+      "birthtime": "2018-06-29T03:47:48.000Z"
+    },
+    "/Users/jonathanbry/LambdaSchool/TruckingWebsite/themes/photon/content/01_first/first.md absPath of file": {
+      "id": "/Users/jonathanbry/LambdaSchool/TruckingWebsite/themes/photon/content/01_first/first.md absPath of file",
+      "children": [
+        "/Users/jonathanbry/LambdaSchool/TruckingWebsite/themes/photon/content/01_first/first.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "75bbfb159e9505c4e3dac6f409b9f7d1",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "description": "File \"themes/photon/content/01_first/first.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/jonathanbry/LambdaSchool/TruckingWebsite/themes/photon/content/01_first/first.md",
+      "relativePath": "01_first/first.md",
+      "extension": "md",
+      "size": 227,
+      "prettySize": "227 B",
+      "modifiedTime": "2018-06-29T03:47:48.000Z",
+      "accessTime": "2018-07-02T04:24:43.000Z",
+      "changeTime": "2018-06-29T03:47:48.000Z",
+      "birthTime": "2018-06-29T03:47:48.000Z",
+      "root": "/",
+      "dir": "/Users/jonathanbry/LambdaSchool/TruckingWebsite/themes/photon/content/01_first",
+      "base": "first.md",
+      "ext": ".md",
+      "name": "first",
+      "relativeDirectory": "01_first",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 16921029,
+      "blocks": 8,
+      "atimeMs": 1530505483000,
+      "mtimeMs": 1530244068000,
+      "ctimeMs": 1530244068000,
+      "birthtimeMs": 1530244068000,
+      "atime": "2018-07-02T04:24:43.000Z",
+      "mtime": "2018-06-29T03:47:48.000Z",
+      "ctime": "2018-06-29T03:47:48.000Z",
+      "birthtime": "2018-06-29T03:47:48.000Z"
+    },
+    "/Users/jonathanbry/LambdaSchool/TruckingWebsite/themes/photon/content/01_first/full_01.jpg absPath of file": {
+      "id": "/Users/jonathanbry/LambdaSchool/TruckingWebsite/themes/photon/content/01_first/full_01.jpg absPath of file",
+      "children": [
+        "/Users/jonathanbry/LambdaSchool/TruckingWebsite/themes/photon/content/01_first/full_01.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "3ce9acc2128c58679a350d8053de9975",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"themes/photon/content/01_first/full_01.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/jonathanbry/LambdaSchool/TruckingWebsite/themes/photon/content/01_first/full_01.jpg",
+      "relativePath": "01_first/full_01.jpg",
+      "extension": "jpg",
+      "size": 48762,
+      "prettySize": "48.8 kB",
+      "modifiedTime": "2018-06-29T03:47:48.000Z",
+      "accessTime": "2018-07-02T04:24:43.000Z",
+      "changeTime": "2018-06-29T03:47:48.000Z",
+      "birthTime": "2018-06-29T03:47:48.000Z",
+      "root": "/",
+      "dir": "/Users/jonathanbry/LambdaSchool/TruckingWebsite/themes/photon/content/01_first",
+      "base": "full_01.jpg",
+      "ext": ".jpg",
+      "name": "full_01",
+      "relativeDirectory": "01_first",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 16921030,
+      "blocks": 96,
+      "atimeMs": 1530505483000,
+      "mtimeMs": 1530244068000,
+      "ctimeMs": 1530244068000,
+      "birthtimeMs": 1530244068000,
+      "atime": "2018-07-02T04:24:43.000Z",
+      "mtime": "2018-06-29T03:47:48.000Z",
+      "ctime": "2018-06-29T03:47:48.000Z",
+      "birthtime": "2018-06-29T03:47:48.000Z"
+    },
+    "/Users/jonathanbry/LambdaSchool/TruckingWebsite/themes/photon/content/01_first/thumb_01.jpg absPath of file": {
+      "id": "/Users/jonathanbry/LambdaSchool/TruckingWebsite/themes/photon/content/01_first/thumb_01.jpg absPath of file",
+      "children": [
+        "/Users/jonathanbry/LambdaSchool/TruckingWebsite/themes/photon/content/01_first/thumb_01.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "070adf6ec509d4b4d8f6a641d3170d86",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"themes/photon/content/01_first/thumb_01.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/jonathanbry/LambdaSchool/TruckingWebsite/themes/photon/content/01_first/thumb_01.jpg",
+      "relativePath": "01_first/thumb_01.jpg",
+      "extension": "jpg",
+      "size": 8450,
+      "prettySize": "8.45 kB",
+      "modifiedTime": "2018-06-29T03:47:48.000Z",
+      "accessTime": "2018-07-02T04:24:43.000Z",
+      "changeTime": "2018-06-29T03:47:48.000Z",
+      "birthTime": "2018-06-29T03:47:48.000Z",
+      "root": "/",
+      "dir": "/Users/jonathanbry/LambdaSchool/TruckingWebsite/themes/photon/content/01_first",
+      "base": "thumb_01.jpg",
+      "ext": ".jpg",
+      "name": "thumb_01",
+      "relativeDirectory": "01_first",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 16921031,
+      "blocks": 24,
+      "atimeMs": 1530505483000,
+      "mtimeMs": 1530244068000,
+      "ctimeMs": 1530244068000,
+      "birthtimeMs": 1530244068000,
+      "atime": "2018-07-02T04:24:43.000Z",
+      "mtime": "2018-06-29T03:47:48.000Z",
+      "ctime": "2018-06-29T03:47:48.000Z",
+      "birthtime": "2018-06-29T03:47:48.000Z"
+    },
+    "/Users/jonathanbry/LambdaSchool/TruckingWebsite/themes/photon/content/01_first/full_01.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/jonathanbry/LambdaSchool/TruckingWebsite/themes/photon/content/01_first/full_01.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/jonathanbry/LambdaSchool/TruckingWebsite/themes/photon/content/01_first/full_01.jpg absPath of file",
+      "internal": {
+        "contentDigest": "3ce9acc2128c58679a350d8053de9975",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/jonathanbry/LambdaSchool/TruckingWebsite/themes/photon/content/01_first/thumb_01.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/jonathanbry/LambdaSchool/TruckingWebsite/themes/photon/content/01_first/thumb_01.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/jonathanbry/LambdaSchool/TruckingWebsite/themes/photon/content/01_first/thumb_01.jpg absPath of file",
+      "internal": {
+        "contentDigest": "070adf6ec509d4b4d8f6a641d3170d86",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/jonathanbry/LambdaSchool/TruckingWebsite/themes/photon/content/01_first/first.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/jonathanbry/LambdaSchool/TruckingWebsite/themes/photon/content/01_first/first.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/jonathanbry/LambdaSchool/TruckingWebsite/themes/photon/content/01_first/first.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: \"Magna feugiat lorem\"\npath: \"/first-post\"\ndate: \"2000-03-21\"\nmodalImage: \"./full_01.jpg\"\nthumbnailImage: \"./thumb_01.jpg\"\n---\n\nNunc blandit nisi ligula magna sodales lectus elementum non. Integer id venenatis velit.\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "6faaf3c7800acd7d3e130073b3e4b06f",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Magna feugiat lorem",
+        "path": "/first-post",
+        "date": "2000-03-21",
+        "modalImage": "./full_01.jpg",
+        "thumbnailImage": "./thumb_01.jpg",
+        "_PARENT": "/Users/jonathanbry/LambdaSchool/TruckingWebsite/themes/photon/content/01_first/first.md absPath of file",
+        "parent": "/Users/jonathanbry/LambdaSchool/TruckingWebsite/themes/photon/content/01_first/first.md absPath of file"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nNunc blandit nisi ligula magna sodales lectus elementum non. Integer id venenatis velit.\n",
+      "fileAbsolutePath": "/Users/jonathanbry/LambdaSchool/TruckingWebsite/themes/photon/content/01_first/first.md"
+    },
+    "/Users/jonathanbry/LambdaSchool/TruckingWebsite/themes/photon/pages absPath of file": {
+      "id": "/Users/jonathanbry/LambdaSchool/TruckingWebsite/themes/photon/pages absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "083bf0a69658606fecc943f794301401",
+        "type": "Directory",
+        "description": "Directory \"themes/photon/pages\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/jonathanbry/LambdaSchool/TruckingWebsite/themes/photon/pages",
+      "relativePath": "",
+      "extension": "",
+      "size": 102,
+      "prettySize": "102 B",
+      "modifiedTime": "2018-06-29T03:47:49.000Z",
+      "accessTime": "2018-07-04T22:12:29.000Z",
+      "changeTime": "2018-06-29T03:47:49.000Z",
+      "birthTime": "2018-06-29T03:47:49.000Z",
+      "root": "/",
+      "dir": "/Users/jonathanbry/LambdaSchool/TruckingWebsite/themes/photon",
+      "base": "pages",
+      "ext": "",
+      "name": "pages",
+      "relativeDirectory": "..",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 16921055,
+      "blocks": 0,
+      "atimeMs": 1530742349000,
+      "mtimeMs": 1530244069000,
+      "ctimeMs": 1530244069000,
+      "birthtimeMs": 1530244069000,
+      "atime": "2018-07-04T22:12:29.000Z",
+      "mtime": "2018-06-29T03:47:49.000Z",
+      "ctime": "2018-06-29T03:47:49.000Z",
+      "birthtime": "2018-06-29T03:47:49.000Z"
+    },
+    "/Users/jonathanbry/LambdaSchool/TruckingWebsite/themes/photon/pages/index.js absPath of file": {
+      "id": "/Users/jonathanbry/LambdaSchool/TruckingWebsite/themes/photon/pages/index.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "db06522ebc2cfe681aabac2fca2abc66",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "description": "File \"themes/photon/pages/index.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/jonathanbry/LambdaSchool/TruckingWebsite/themes/photon/pages/index.js",
+      "relativePath": "index.js",
+      "extension": "js",
+      "size": 644,
+      "prettySize": "644 B",
+      "modifiedTime": "2018-07-06T21:04:52.000Z",
+      "accessTime": "2018-07-06T21:04:52.000Z",
+      "changeTime": "2018-07-06T21:04:52.000Z",
+      "birthTime": "2018-06-29T03:47:49.000Z",
+      "root": "/",
+      "dir": "/Users/jonathanbry/LambdaSchool/TruckingWebsite/themes/photon/pages",
+      "base": "index.js",
+      "ext": ".js",
+      "name": "index",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 16921056,
+      "blocks": 8,
+      "atimeMs": 1530911092000,
+      "mtimeMs": 1530911092000,
+      "ctimeMs": 1530911092000,
+      "birthtimeMs": 1530244069000,
+      "atime": "2018-07-06T21:04:52.000Z",
+      "mtime": "2018-07-06T21:04:52.000Z",
+      "ctime": "2018-07-06T21:04:52.000Z",
+      "birthtime": "2018-06-29T03:47:49.000Z"
+    },
+    "SitePage /": {
+      "layout": null,
+      "jsonName": "index.json",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/Users/jonathanbry/LambdaSchool/TruckingWebsite/themes/photon/pages/index.js",
+      "componentChunkName": "component---themes-photon-pages-index-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/jonathanbry/LambdaSchool/TruckingWebsite/themes/photon/pages/index.js",
+      "id": "SitePage /",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "393a321beef320babeeed56d964a3fc8",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /first-post": {
+      "layout": null,
+      "jsonName": "first-post.json",
+      "internalComponentName": "ComponentFirstPost",
+      "path": "/first-post",
+      "component": "/Users/jonathanbry/LambdaSchool/TruckingWebsite/themes/photon/templates/post.js",
+      "componentChunkName": "component---themes-photon-templates-post-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/jonathanbry/LambdaSchool/TruckingWebsite/themes/photon/templates/post.js",
+      "id": "SitePage /first-post",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "9fe3c7e97d49036e87042f62a8410888",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "90bccd6ae3d9366e95e563348876890c"
+  },
+  "componentDataDependencies": {
+    "nodes": {
+      "/Users/jonathanbry/LambdaSchool/TruckingWebsite/themes/photon/content/01_first/first.md absPath of file >>> MarkdownRemark": [
+        "/first-post"
+      ]
+    },
+    "connections": {
+      "SitePage": [
+        "/dev-404-page/"
+      ]
+    }
+  }
+}

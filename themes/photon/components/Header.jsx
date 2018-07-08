@@ -1,22 +1,34 @@
 import React from 'react';
-import Link from 'gatsby-link';
 import './Header.scss';
+import EmailForm from '../components/EmailForm';
+import Logo from '../images/MarriageUSA.png';
+import Clouds from '../images/Clouds.png';
 
-export default function Header(props) {
- return (
-   <section id="header">
-     <div className="inner">
-       <span className="icon major fa-cloud"></span>
-       <h1><strong>Tony Morrison Transport LLC.</strong><br /></h1>
-       <h4>Las Vegas local, <br />
-       Nationwide reach.</h4>
-       <ul className="actions">
-         <li><a href="#one" className="button scrolly">About</a>
-         <a href="#one" className="button scrolly">Contact</a>
-         <a href="#one" className="button scrolly">Social</a>
-         </li>
-       </ul>
-     </div>
-   </section>
- )
+
+//////////////////////////////////////////
+////////// # Notes #
+////////// 1. maybe add bootstrap to handle email sign ups, worst case we have a link to a mail chimp
+////////// 2.
+//////////
+//////////
+//////////////////////////////////////////
+export default function Header() {
+  return (
+    <div className="parent">
+          <img src={Clouds} className="Clouds" />
+      <section class="sect-banner" id="header">
+      <img src={Logo} className="Logo" />
+        <EmailForm />
+        <section class="kf-slider">
+          <div />
+          <div />
+          <div />
+        </section>
+        <div class="v-center">
+          <p className="Title">Personalized Match Making</p>
+          <p className="Sub">one time $1500 membership fee waived for new signups *limited time only</p>
+        </div>
+      </section>
+    </div>
+  )
 }

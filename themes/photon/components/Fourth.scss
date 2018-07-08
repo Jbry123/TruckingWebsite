@@ -1,0 +1,10 @@
+.container {
+  min-width: 350px;
+  max-width: 2000px;
+  @media #{$medium} {
+    min-width: 1200px;
+  }
+  @media #{$smartphones} {
+    min-width: 350px;
+  }
+}

@@ -1,9 +1,5 @@
 import React from 'react';
-import Link from 'gatsby-link';
-import Helmet from 'react-helmet';
 import './First.scss';
-
-import image_0 from '../images/pic01.jpg';
 
 export default function First(props) {
  return (
@@ -11,19 +7,28 @@ export default function First(props) {
      <div className="container">
        <div className="row 150%">
          <div className="6u 12u$(medium) custom-medium">
-           <header className="major">
-             <h2><strong>Shipping all the way from New York to Washington,
-             and California to Florida!</strong></h2>
-           </header>
-           <p>Our drivers' have a proven track record for trusted long hauls,
-              as well as local deliveries. Shoot us an email and provide details
-               such as location and destination, pictures of the item(s), and your contact info!</p>
+          <header>
+             <h2 className="question"><strong className="question">What does MarriageUSA do, and what is Omiai?</strong></h2>
+          </header>
+          <p className="sub" >Marriage USA is the place to meet your last wife! It is professionally managed by career proven match maker, Misao Westin.
+             Westin has had an in person clientele based in Japan, and San Francisco for 15 years,
+              and is expanding to match woman from Japan with men in the USA!
+          </p>
+          <p className="sub" >
+            Omiai, or known as miai, is a concept in Japan that has existed since the 16th century, 
+            to establish devotion and mutual support between families and couples!
+            In modern practice, it is seen as a way to date with intent to marry, comparable to 
+            the more serious dating sites, the only difference being the level of personalized interaction
+            you receive from Westin!
+          </p>
+
          </div>
-            <button className="button1">Email Me!
+            <button className="button1"> Schedule a meeting!
               <a href="/" className="6u 12u$(medium) important(medium) custom-medium">
               </a>  
             </button>
-            <span className="image fit"><img src={image_0} alt="Tony Morrison Transport" /></span>
+            <span className="image fit">
+            </span>
        </div>
      </div>
    </section>

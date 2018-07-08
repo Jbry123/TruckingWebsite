@@ -1,0 +1,219 @@
+$smartphones: "only screen and (max-width: 400px)";
+$medium: "only screen and (max-width: 1300px)";
+
+#two {
+  background-image: linear-gradient(240deg, #E1FFF8, #993232);
+  min-width: 1250px;
+  max-width: 2000px;
+  min-height: 800px;
+  @media #{$smartphones} {
+    max-width: 400px;
+    min-width: 400px;
+  }
+}
+
+.container {
+  min-width: 350px;
+  max-width: 2000px;
+  @media #{$medium} {
+    min-width: 1250px;
+  }
+  @media #{$smartphones} {
+    min-width: 350px;
+  }
+}
+
+.StepParent {
+  min-width: 350px;
+  max-width: 2000px;
+  width: 100%;
+  min-height: 350px;
+  max-height: 500px;
+  height: 100%;
+
+}
+
+.Step1 {
+  position: absolute;
+  left: 0px;
+  top: 1530px;
+  height: 170px;
+  width: 700px;
+  margin: 1%;
+  @media #{$smartphones} {
+    position: absolute;
+    left: 20px;
+    top: 1330px;
+    height: 170px;
+    width: 80%;
+    margin: 1%;
+    max-width: 400px;
+    min-width: 300px;
+  }
+}
+
+.Step3 {
+  position: absolute;
+  left: 0px;
+  top: 1930px;
+  height: 170px;
+  width: 700px;
+  margin: 1%;
+  @media #{$smartphones} {
+    position: absolute;
+    left: 20px;
+    top: 1730px;
+    height: 170px;
+    width:80%;
+    margin: 1%;
+    max-width: 400px;
+    min-width: 300px;
+  }
+}
+
+.Step2 {
+  position: absolute;
+  left: 550px;
+  top: 1730px;
+  height: 170px;
+  width: 700px;
+  margin: 1%;
+  @media #{$smartphones} {
+    position: absolute;
+    left: 20px;
+    top: 1530px;
+    height: 170px;
+    width: 80%;
+    margin: 1%;
+    max-width: 400px;
+    min-width: 300px;
+  }
+}
+
+.Step4 {
+  position: absolute;
+  left: 550px;
+  top: 2110px;
+  height: 170px;
+  width: 700px;
+  margin: 1%;
+  @media #{$smartphones} {
+    position: absolute;
+    left: 20px;
+    top: 1930px;
+    height: 170px;
+    width: 80%;
+    margin: 1%;
+    max-width: 400px;
+    min-width: 300px;
+  }
+}
+
+
+.StepOne {
+  position: absolute;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  left: 280px;
+  top: 1545px;
+  height: 170px;
+  width: 300px;
+  margin: 1%;
+  z-index: 1;
+  @media #{$smartphones} {
+    position: absolute;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    left: 128px;
+    top: 1345px;
+    height: 170px;
+    width: 210px;
+    margin: 1%;
+    z-index: 1;
+    }
+}
+
+.StepThree {
+  position: absolute;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  left: 280px;
+  top: 1945px;
+  height: 170px;
+  width: 330px;
+  margin: 1%;
+  z-index: 1;
+  @media #{$smartphones} {
+    position: absolute;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    left: 128px;
+    top: 1745px;
+    height: 170px;
+    width: 210px;
+    margin: 1%;
+    z-index: 1;
+    }
+}
+
+.StepTwo {
+  position: absolute;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  left: 830px;
+  top: 1745px;
+  height: 160px;
+  width: 390px;
+  margin: 1%;
+  z-index: 1;
+  @media #{$smartphones} {
+    position: absolute;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    left: 138px;
+    top: 1545px;
+    height: 170px;
+    width: 190px;
+    margin: 1%;
+    z-index: 1;
+    }
+}
+
+.StepFour {
+  position: absolute;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  left: 830px;
+  top: 2145px;
+  height: 100px;
+  width: 390px;
+  z-index: 1;
+  @media #{$smartphones} {
+    position: absolute;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    left: 128px;
+    top: 1945px;
+    height: 170px;
+    width: 210px;
+    margin: 1%;
+    z-index: 1;
+    }
+}
+
+.Leafs {
+  position: relative;
+  min-width: 1300px;
+  max-width: 1300px;
+  height: 800px;
+  margin-bottom: -10px;
+  width: 95%;
+  @media #{$smartphones} {
+    position: absolute;
+    left: 0px;
+    min-width: 300px;
+    max-width: 400px;
+    width: 100%;
+    height: 120%;
+  }
+}
