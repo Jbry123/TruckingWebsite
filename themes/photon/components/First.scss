@@ -1,11 +1,51 @@
+$smartphones: "only screen and (max-width: 479px)";
+$medium: "only screen and (max-width: 1300px)";
+$large: "only screen and (max-width: 2000px)";
+
 #one {
+  background-image: url(../images/pic04.jpg);
+  width: 100%;
   .button1 {
-    justify-content: center;
-    align-content: center;
-    width: 91%;
-    margin-left: 9%;
-    padding-right: 5%;
-    text-align: center;
-    background-color: #F03A47;
+    min-width: 300px;
+    padding-right: 4%; 
+    top: 1125px;
+    right: 150px;
+    position: absolute;
+    background-color: #993232;
+    @media #{$smartphones} {
+      right: 24px;
+      min-width: 352px;
+      max-width: 400px;
+      top: 1175px;
+
+    }
   }  
+}
+
+.question {
+  margin-top: 5%;
+}
+
+.major {
+  margin-top: 25%;
+}
+
+.sub {
+  display: flex;
+  flex-direction: column;
+  color: #000;
+  background-color: rgba(167, 164, 164, 0.584);
+  border-radius: 5px;
+  padding: 3.3%;
+}
+
+.container {
+  min-width: 350px;
+  max-width: 2000px;
+  @media #{$medium} {
+    min-width: 1300px;
+  }
+  @media #{$smartphones} {
+    min-width: 350px;
+  }
 }

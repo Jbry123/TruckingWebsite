@@ -1,3 +1,297 @@
-h4 {
-  padding-left: 4.4%;
+$smartphones: "only screen and (max-width: 400px)";
+$medium: "only screen and (max-width: 1300px), (min-width: 800px)";
+$large: "only screen and (max-width: 2000px)";
+
+/*----------------------------------------------   
+--sign up form
+-----------------------------------------------  */
+.parent {
+  min-width: 400px;
+  max-width: 2000px;
+  height: 730px;
+  @media #{$medium} {
+    min-width: 1200px;
+    width: 100%;
+  }
+  @media #{$smartphones} {
+    min-width: 350px;
+  }
+}
+
+@keyframes tick-tock {
+  to {
+    transform: rotate(360deg);
+
+  }
+}
+.Logo {
+  position: absolute;
+  animation: #{tick-tock} 5s;
+  animation-direction: alternate;
+  z-index: 2;
+  left: 1075px;
+  bottom: 485px;
+  min-width: 150px;
+  max-width: 200px; 
+  min-height: 150px;
+  max-height: 200px; 
+
+    @media #{$medium} {
+      left: 1075px;
+      bottom: 485px;
+    }
+    @media #{$smartphones} {
+      left: 260px;
+      bottom: 483px;
+    }
+}
+
+.Clouds {
+  position: absolute;
+  z-index: 1;
+  top: 430px;
+  min-width: 350px;
+  max-width: 2000px; 
+  min-height: 250px;
+  max-height: 300px;
+
+    @media #{$medium} {
+      width: 100%;
+    }
+    @media #{$smartphones} {
+      max-width: 450px;
+      top: 440px;
+
+    }
+}
+
+.subscriptionForm {
+
+  position: relative;
+  background: #0c3e5f74;
+  color: #000;
+  padding: 2rem;
+  margin-top: 0%;
+  margin-bottom: 1%;
+  margin-left: 4%;
+
+  border-radius: 50px;
+  z-index: 100;
+  min-width: 400px;
+  max-width: 500px; 
+  min-height: 175px;
+  max-height: 500px; 
+  @media #{$medium} {
+    padding: 2rem;
+    margin-top: 0%;
+    margin-bottom: 1%;
+    margin-left: 4%;
+  }
+  @media #{$smartphones} {
+    max-width: 200px;
+    min-width: 200px;
+    padding: 2rem;
+    margin-top: 10%;
+    margin-bottom: 1%;
+    margin-left: 14%;
+  }
+
+.button {
+  display: flex;
+  flex-flow: column;
+  position: inherit;
+  justify-content: center;
+  align-content: center;
+  color: white;
+}
+.input1, .input2 {
+  color: black;
+}
+
+label, {
+  color: white;
+}
+
+input[type="text"], input[type="email"]  {
+  background-color: rgb(250, 255, 190);
+  margin-bottom: 2%;
+}
+
+}
+
+
+/*----------------------------------------------   
+--Keyframes
+-----------------------------------------------  */
+@keyframes fade-out {
+  33%{
+   opacity: 1
+  }
+  66%{
+  opacity: 0
+  }
+ }
+
+/*----------------------------------------------   
+--Banner
+-----------------------------------------------  */
+
+.sect-banner{
+  display: table;
+  max-width: 2000px;
+  min-width: 400px;
+  min-height: 700px;
+  height: 100%; 
+  width: 100%;
+  text-align: center;
+ 
+    @media #{$smartphones} {
+    display: flex;
+    flex-flow: column;
+    min-width: 350px;
+    max-width: 400px;
+    margin: -10%;
+    width: 100%;
+  }
+  @media #{$medium} {
+    display: flex;
+    flex-flow: column;
+    min-width: 440px;
+    max-width: 1400px;
+    width: 100%;
+  }
+  @media #{$large} {
+    display: table;
+  }
+  /*-- Full Height --*/ 
+  /*-- Create an Overlay --*/
+  &:after{
+   content: '';
+   position: absolute;
+   top: 0;
+   left: 0;
+   height: 100%;
+   width: 100%;
+   background-color: rgba(167, 164, 164, 0.584);
+   z-index: 10;
+  }
+ 
+  /*-- Vertically center --*/
+  .v-center{
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+    z-index: 1;
+    padding: 0 5%;
+    margin-top: 10%;
+    margin-bottom: 10%;  
+    width: 100%;
+    height: 100%;
+  }
+
+ }
+
+  /*----------------------------------------------   
+--Text Classes
+-----------------------------------------------  */
+
+.Title {
+  position: absolute;
+  right: 128px;
+  top: 260px;
+  width: 100%;
+  height: 7%;
+  justify-content: center;
+  align-content: center;
+  font-size: 30px;
+  background-color: rgba(167, 164, 164, 0.584);
+  border-radius: 50px;
+  margin-top: 10%;
+  color: #993232;
+  @media #{$large} {
+    width: 100%;
+  }
+  @media #{$medium} {
+    width: 100%;
+  }
+  @media #{$smartphones} {
+    border-radius: 20px; 
+    width: 200px;
+    height: 10.9%;
+    right: 70px;
+    top: 260px;
+  }
+}
+
+.Sub {
+  position: absolute;
+  right: 174px;
+  top: 380px;
+  width: 90%;
+  height: 7%;
+  font-size: 25px;
+  background-color: rgba(167, 164, 164, 0.584);
+  border-radius: 50px;
+  margin-top: 10%;
+  color: #993232;
+  @media #{$smartphones} {
+    border-radius: 20px;
+    width: 250px;
+    height: 115px;
+    right: 45px;
+    top: 390px;
+    text-align: center;
+  }
+}
+
+  /*----------------------------------------------   
+--List for images, sm and large
+-----------------------------------------------  */
+section.kf-slider{
+  div { 	
+    height: 100%;
+    width: 100%;
+
+    position: absolute;
+    top: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:	50%;
+    z-index: 0;
+    opacity: 0;
+    /*-- Add animation --*/ 
+    animation: fade-out 9s infinite both;
+    /*-- Image 1: small --*/ 
+    background-image: url(../images/pic01.jpg);
+    @media (min-width: 350px){
+      /*-- Image 1: large --*/ 
+      background-image: url(../images/pic01.jpg);
+    }
+  }
+  /*-- Image 2 --*/ 
+  div:nth-child(2){
+    background-image: url(../images/pic02.jpg);
+    /*-- Animation delay: 3s --*/ 
+    animation-delay: 3s;
+    @media (min-width: 350px){
+      background-image: url(../images/pic02.jpg);
+    }
+  }
+  /*-- Image 3 --*/ 
+  div:nth-child(3){
+    background-image: url(../images/pic03.jpg);
+    /* Animation delay: 6s */  
+    animation-delay: (6s);
+    @media (min-width: 350px){
+      background-image: url(../images/pic03.jpg);
+    }
+  }
+  div:nth-child(4){
+    background-image: url(../images/pic04.jpg);
+    /* Animation delay: 6s */  
+    animation-delay: (6s);
+    @media (min-width: 350px){
+     background-image: url(../images/pic04.jpg);
+    }
+  }
 }

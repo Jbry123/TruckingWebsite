@@ -1,0 +1,20 @@
+[
+    {
+        "componentChunkName": "component---themes-photon-pages-index-js",
+        "layout": null,
+        "jsonName": "index.json",
+        "path": "/"
+    },
+    {
+        "componentChunkName": "component---themes-photon-templates-post-js",
+        "layout": null,
+        "jsonName": "first-post.json",
+        "path": "/first-post"
+    },
+    {
+        "componentChunkName": "component---cache-dev-404-page-js",
+        "layout": null,
+        "jsonName": "dev-404-page.json",
+        "path": "/dev-404-page/"
+    }
+]
