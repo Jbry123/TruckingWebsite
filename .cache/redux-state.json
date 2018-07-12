@@ -16,7 +16,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "aeba7e2ef23f7098c7205ad49b953ae9",
+        "contentDigest": "07f5534d9e45a146173703e580ce197b",
         "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
@@ -1233,12 +1233,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-07-04T22:11:45.387Z",
+      "buildTime": "2018-07-11T23:03:24.915Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "1424f71ebcafd03ef6937c23fc6da040",
+        "contentDigest": "ad330347d9e8601a45ab69698fe8cd7f",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1248,7 +1248,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "a53d4bee7305ed16e6d443937e443205",
+        "contentDigest": "d26547bd679f2f6d969d6ce8b17df2f5",
         "type": "Directory",
         "description": "Directory \"themes/photon/content\"",
         "owner": "gatsby-source-filesystem"
@@ -1259,10 +1259,10 @@
       "extension": "",
       "size": 102,
       "prettySize": "102 B",
-      "modifiedTime": "2018-06-29T03:47:48.000Z",
-      "accessTime": "2018-07-04T22:12:29.000Z",
-      "changeTime": "2018-06-29T03:47:48.000Z",
-      "birthTime": "2018-06-29T03:47:48.000Z",
+      "modifiedTime": "2018-07-11T23:01:27.000Z",
+      "accessTime": "2018-07-11T23:03:51.000Z",
+      "changeTime": "2018-07-11T23:01:27.000Z",
+      "birthTime": "2018-07-11T23:01:27.000Z",
       "root": "/",
       "dir": "/Users/jonathanbry/LambdaSchool/TruckingWebsite/themes/photon",
       "base": "content",
@@ -1276,23 +1276,23 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 16921027,
+      "ino": 17528733,
       "blocks": 0,
-      "atimeMs": 1530742349000,
-      "mtimeMs": 1530244068000,
-      "ctimeMs": 1530244068000,
-      "birthtimeMs": 1530244068000,
-      "atime": "2018-07-04T22:12:29.000Z",
-      "mtime": "2018-06-29T03:47:48.000Z",
-      "ctime": "2018-06-29T03:47:48.000Z",
-      "birthtime": "2018-06-29T03:47:48.000Z"
+      "atimeMs": 1531350231000,
+      "mtimeMs": 1531350087000,
+      "ctimeMs": 1531350087000,
+      "birthtimeMs": 1531350087000,
+      "atime": "2018-07-11T23:03:51.000Z",
+      "mtime": "2018-07-11T23:01:27.000Z",
+      "ctime": "2018-07-11T23:01:27.000Z",
+      "birthtime": "2018-07-11T23:01:27.000Z"
     },
     "/Users/jonathanbry/LambdaSchool/TruckingWebsite/themes/photon/content/01_first absPath of file": {
       "id": "/Users/jonathanbry/LambdaSchool/TruckingWebsite/themes/photon/content/01_first absPath of file",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "8daf16492c61d054cc9dd2b84894b496",
+        "contentDigest": "fc505b1649c0e2d52b82a3f9a1665584",
         "type": "Directory",
         "description": "Directory \"themes/photon/content/01_first\"",
         "owner": "gatsby-source-filesystem"
@@ -1303,10 +1303,10 @@
       "extension": "",
       "size": 170,
       "prettySize": "170 B",
-      "modifiedTime": "2018-06-29T03:47:48.000Z",
-      "accessTime": "2018-07-04T22:12:29.000Z",
-      "changeTime": "2018-06-29T03:47:48.000Z",
-      "birthTime": "2018-06-29T03:47:48.000Z",
+      "modifiedTime": "2018-07-11T23:01:28.000Z",
+      "accessTime": "2018-07-11T23:03:51.000Z",
+      "changeTime": "2018-07-11T23:01:28.000Z",
+      "birthTime": "2018-07-11T23:01:27.000Z",
       "root": "/",
       "dir": "/Users/jonathanbry/LambdaSchool/TruckingWebsite/themes/photon/content",
       "base": "01_first",
@@ -1320,16 +1320,16 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 16921028,
+      "ino": 17528734,
       "blocks": 0,
-      "atimeMs": 1530742349000,
-      "mtimeMs": 1530244068000,
-      "ctimeMs": 1530244068000,
-      "birthtimeMs": 1530244068000,
-      "atime": "2018-07-04T22:12:29.000Z",
-      "mtime": "2018-06-29T03:47:48.000Z",
-      "ctime": "2018-06-29T03:47:48.000Z",
-      "birthtime": "2018-06-29T03:47:48.000Z"
+      "atimeMs": 1531350231000,
+      "mtimeMs": 1531350088000,
+      "ctimeMs": 1531350088000,
+      "birthtimeMs": 1531350087000,
+      "atime": "2018-07-11T23:03:51.000Z",
+      "mtime": "2018-07-11T23:01:28.000Z",
+      "ctime": "2018-07-11T23:01:28.000Z",
+      "birthtime": "2018-07-11T23:01:27.000Z"
     },
     "/Users/jonathanbry/LambdaSchool/TruckingWebsite/themes/photon/content/01_first/first.md absPath of file": {
       "id": "/Users/jonathanbry/LambdaSchool/TruckingWebsite/themes/photon/content/01_first/first.md absPath of file",
@@ -1520,7 +1520,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "083bf0a69658606fecc943f794301401",
+        "contentDigest": "0c09f87b123744de51be0cd74d10a3df",
         "type": "Directory",
         "description": "Directory \"themes/photon/pages\"",
         "owner": "gatsby-source-filesystem"
@@ -1531,10 +1531,10 @@
       "extension": "",
       "size": 102,
       "prettySize": "102 B",
-      "modifiedTime": "2018-06-29T03:47:49.000Z",
-      "accessTime": "2018-07-04T22:12:29.000Z",
-      "changeTime": "2018-06-29T03:47:49.000Z",
-      "birthTime": "2018-06-29T03:47:49.000Z",
+      "modifiedTime": "2018-07-11T23:01:28.000Z",
+      "accessTime": "2018-07-11T23:03:51.000Z",
+      "changeTime": "2018-07-11T23:01:28.000Z",
+      "birthTime": "2018-07-11T23:01:28.000Z",
       "root": "/",
       "dir": "/Users/jonathanbry/LambdaSchool/TruckingWebsite/themes/photon",
       "base": "pages",
@@ -1548,16 +1548,16 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 16921055,
+      "ino": 17528768,
       "blocks": 0,
-      "atimeMs": 1530742349000,
-      "mtimeMs": 1530244069000,
-      "ctimeMs": 1530244069000,
-      "birthtimeMs": 1530244069000,
-      "atime": "2018-07-04T22:12:29.000Z",
-      "mtime": "2018-06-29T03:47:49.000Z",
-      "ctime": "2018-06-29T03:47:49.000Z",
-      "birthtime": "2018-06-29T03:47:49.000Z"
+      "atimeMs": 1531350231000,
+      "mtimeMs": 1531350088000,
+      "ctimeMs": 1531350088000,
+      "birthtimeMs": 1531350088000,
+      "atime": "2018-07-11T23:03:51.000Z",
+      "mtime": "2018-07-11T23:01:28.000Z",
+      "ctime": "2018-07-11T23:01:28.000Z",
+      "birthtime": "2018-07-11T23:01:28.000Z"
     },
     "/Users/jonathanbry/LambdaSchool/TruckingWebsite/themes/photon/pages/index.js absPath of file": {
       "id": "/Users/jonathanbry/LambdaSchool/TruckingWebsite/themes/photon/pages/index.js absPath of file",
@@ -1620,7 +1620,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "393a321beef320babeeed56d964a3fc8",
+        "contentDigest": "b9564872d93f0833316b52960e5e7e1a",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -1641,7 +1641,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "9fe3c7e97d49036e87042f62a8410888",
+        "contentDigest": "7408d29a1cb4b81f4d6ee27cdc3f28f6",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
