@@ -1,5 +1,6 @@
 $smartphones: "only screen and (max-width: 400px)";
-$medium: "only screen and (max-width: 1300px)";
+$medium: "only screen and (max-width: 1200px), (min-width: 800px)";
+$large: "only screen and (max-width: 2000px), (min-width: 1201)";
 
 #two {
   background-image: linear-gradient(240deg, #E1FFF8, #993232);
@@ -45,7 +46,7 @@ $medium: "only screen and (max-width: 1300px)";
     left: 20px;
     top: 1330px;
     height: 170px;
-    width: 80%;
+    width: 90%;
     margin: 1%;
     max-width: 400px;
     min-width: 300px;
@@ -64,7 +65,7 @@ $medium: "only screen and (max-width: 1300px)";
     left: 20px;
     top: 1730px;
     height: 170px;
-    width:80%;
+    width: 90%;
     margin: 1%;
     max-width: 400px;
     min-width: 300px;
@@ -83,7 +84,7 @@ $medium: "only screen and (max-width: 1300px)";
     left: 20px;
     top: 1530px;
     height: 170px;
-    width: 80%;
+    width: 90%;
     margin: 1%;
     max-width: 400px;
     min-width: 300px;
@@ -102,7 +103,7 @@ $medium: "only screen and (max-width: 1300px)";
     left: 20px;
     top: 1930px;
     height: 170px;
-    width: 80%;
+    width: 90%;
     margin: 1%;
     max-width: 400px;
     min-width: 300px;
@@ -203,11 +204,11 @@ $medium: "only screen and (max-width: 1300px)";
 
 .Leafs {
   position: relative;
-  min-width: 1300px;
-  max-width: 1300px;
+  min-width: 1280px;
+  max-width: 2000px;
   height: 800px;
   margin-bottom: -10px;
-  width: 95%;
+  width: 100%;
   @media #{$smartphones} {
     position: absolute;
     left: 0px;
@@ -215,5 +216,8 @@ $medium: "only screen and (max-width: 1300px)";
     max-width: 400px;
     width: 100%;
     height: 120%;
+  }
+  @media #{$medium} {
+  
   }
 }

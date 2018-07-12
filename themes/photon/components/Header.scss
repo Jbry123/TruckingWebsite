@@ -1,6 +1,7 @@
 $smartphones: "only screen and (max-width: 400px)";
-$medium: "only screen and (max-width: 1300px), (min-width: 800px)";
-$large: "only screen and (max-width: 2000px)";
+$medium: "only screen and (max-width: 1200px), (min-width: 800px)";
+$large: "only screen and (max-width: 2000px), (min-width: 1201)";
+
 
 /*----------------------------------------------   
 --sign up form
@@ -10,8 +11,8 @@ $large: "only screen and (max-width: 2000px)";
   max-width: 2000px;
   height: 730px;
   @media #{$medium} {
-    min-width: 1200px;
     width: 100%;
+    min-width: 950px;
   }
   @media #{$smartphones} {
     min-width: 350px;
@@ -37,12 +38,16 @@ $large: "only screen and (max-width: 2000px)";
   max-height: 200px; 
 
     @media #{$medium} {
-      left: 1075px;
+      left: 575px;
       bottom: 485px;
     }
     @media #{$smartphones} {
       left: 260px;
       bottom: 483px;
+    }
+    @media #{$large} {
+      left: 1075px;
+      bottom: 393px;
     }
 }
 
@@ -57,10 +62,13 @@ $large: "only screen and (max-width: 2000px)";
 
     @media #{$medium} {
       width: 100%;
+      min-width: 950px;
+      top: 370px;
     }
     @media #{$smartphones} {
-      max-width: 450px;
-      top: 440px;
+      max-width: 430px;
+      min-width: 400px;
+      top: 410px;
 
     }
 }
@@ -85,7 +93,7 @@ $large: "only screen and (max-width: 2000px)";
     padding: 2rem;
     margin-top: 0%;
     margin-bottom: 1%;
-    margin-left: 4%;
+    margin-left: 18%;
   }
   @media #{$smartphones} {
     max-width: 200px;
@@ -140,7 +148,8 @@ input[type="text"], input[type="email"]  {
   display: table;
   max-width: 2000px;
   min-width: 400px;
-  min-height: 700px;
+  min-height: 600px;
+  max-height: 650px;
   height: 100%; 
   width: 100%;
   text-align: center;
@@ -148,6 +157,8 @@ input[type="text"], input[type="email"]  {
     @media #{$smartphones} {
     display: flex;
     flex-flow: column;
+    min-height: 700px;
+    max-height: 700px;
     min-width: 350px;
     max-width: 400px;
     margin: -10%;
@@ -159,6 +170,7 @@ input[type="text"], input[type="email"]  {
     min-width: 440px;
     max-width: 1400px;
     width: 100%;
+
   }
   @media #{$large} {
     display: table;

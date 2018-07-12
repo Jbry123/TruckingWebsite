@@ -1,6 +1,7 @@
-$smartphones: "only screen and (max-width: 479px)";
-$medium: "only screen and (max-width: 1300px)";
-$large: "only screen and (max-width: 2000px)";
+$smartphones: "only screen and (max-width: 400px)";
+$medium: "only screen and (max-width: 1200px), (min-width: 800px)";
+$large: "only screen and (max-width: 2000px), (min-width: 1201)";
+
 
 #one {
   background-image: url(../images/pic04.jpg);
